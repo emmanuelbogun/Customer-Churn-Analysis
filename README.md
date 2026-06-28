@@ -6,7 +6,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Measures-0078D4?style=flat)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
 
-<img width="1146" height="862" alt="image" src="https://github.com/user-attachments/assets/e1ae7acb-787e-4c8d-bd97-8adb82045077" />
+![Customer Churn Dashboard](Capture.PNG)
 
 ---
 
