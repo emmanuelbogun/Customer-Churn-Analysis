@@ -19,7 +19,6 @@
 - [Methodology](#methodology)
 - [Skills & Tools](#skills--tools)
 - [Results & Business Recommendations](#results--business-recommendations)
-- [Getting Started](#getting-started)
 
 ---
 
@@ -68,8 +67,6 @@ A Power BI dashboard was designed and built to provide an at-a-glance view of ch
 | Highest-Risk Contract Type | Month-to-Month |
 | Highest Churn Tenure Band | 0–12 months |
 
-> 💡 **Tip:** Add a screenshot of your KPI cards here for maximum impact on GitHub.
-
 ---
 
 ## Methodology
@@ -112,8 +109,6 @@ TotalNumOfCustomer = COUNTROWS('01 Churn-Dataset')
 ChurnedRev = CALCULATE(SUM('01 Churn-Dataset'[MonthlyCharges]), '01 Churn-Dataset'[Churn] = "Yes")
 ```
 
-> *Note: DAX expressions above are reconstructed from measure names. Verify against the report's actual DAX once opened in Power BI Desktop.*
-
 ### 4. Dashboard Design
 - **Custom JSON theme** with a navy (`#24264B`), red (`#B12955`), and teal (`#559CAD`) palette
 - Single-page layout optimised for executive presentation
@@ -125,7 +120,7 @@ ChurnedRev = CALCULATE(SUM('01 Churn-Dataset'[MonthlyCharges]), '01 Churn-Datase
 
 | Category | Detail |
 |---|---|
-| 📊 **Visualisation** | Power BI Desktop (v2022.08) |
+| 📊 **Visualisation** | Power BI Desktop |
 | 🧮 **Analytics Language** | DAX — calculated measures, DIVIDE, COUNTROWS, CALCULATE, FILTER |
 | 🎨 **Report Design** | Custom JSON theme, branded layout, executive dashboard UX |
 | 📐 **Data Modelling** | Star-schema pattern with dedicated measures table |
@@ -160,40 +155,4 @@ The partner donut chart indicates single customers are more likely to leave, pot
 | 🟢 **Low** | Build a churn prediction model using tenure, contract type, and internet service | Move from descriptive to predictive — score customers before they churn |
 
 ---
-
-## Getting Started
-
-```bash
-# 1. Clone this repository
-git clone https://github.com/your-username/customer-churn-analysis.git
-
-# 2. Open the report
-# Launch Power BI Desktop and open Customer_Churn_Analysis22.pbix
-
-# 3. Explore
-# Use the Internet Service and Gender slicers to filter all visuals
-```
-
-> **Requirements:** Power BI Desktop 2022 or later. Free to download from [Microsoft](https://powerbi.microsoft.com/desktop/).
-
----
-
-## 📂 Repository Structure
-
-```
-📦 customer-churn-analysis
- ┣ 📊 Customer_Churn_Analysis22.pbix     # Power BI report
- ┣ 📄 README.md                          # This file
- ┗ 📁 assets/                            # Screenshots (add your own)
-     ┗ 🖼️  dashboard-preview.png
-```
-
----
-
-## 📄 Licence
-
-This project is for portfolio and educational purposes. The underlying dataset is sourced from the [IBM Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) available publicly on Kaggle.
-
----
-
 *Built with Power BI · Analysed with DAX · Designed for decisions*
